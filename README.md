@@ -43,61 +43,61 @@ Implemented algorithms that allow for ongoing adjustments to exercise plans, ens
 
 # Module Description 
 
-# 1. User Interface Module:
+1. User Interface Module:
    - This module comprises the graphical user interface (GUI) components of the application, including screens, buttons, menus, and interactive elements.
    - It is designed to be intuitive and easy to navigate, with clear instructions and visual feedback for users.
    - The UI module allows users to browse exercise options, view their progress, schedule appointments, and communicate with physiotherapists.
    - It incorporates responsive design principles to ensure compatibility across different devices and screen sizes.
 
-# 2. Body Detection and Pose Estimation Module:
+2. Body Detection and Pose Estimation Module:
    - This module employs computer vision algorithms to detect and track the user's body and estimate their pose in real-time.
    - It utilizes techniques such as keypoint detection, skeleton tracking, and pose estimation to identify the positions of joints and body parts.
    - The module may leverage pretrained models or custom algorithms to achieve accurate pose estimation, even in varying lighting conditions or backgrounds.
    - It provides the foundation for analyzing the user's movements during exercise sessions and offering feedback on posture and form.
 
-# 3. Real-time Guidance Module:
+3. Real-time Guidance Module:
    - The real-time guidance module builds upon the pose estimation results to offer personalized feedback and instructions during exercises.
    - It compares the user's current pose to ideal or prescribed poses for each exercise and provides visual or auditory cues to help them correct their form.
    - The module may include features such as on-screen overlays, voice prompts, or haptic feedback to guide users through exercises.
    - It continuously monitors the user's movements and adjusts feedback in real-time based on their performance and progress.
 
-# 4. Assessment System Module:
+4. Assessment System Module:
    - This module evaluates the user's performance during exercise sessions and provides feedback on their progress over time.
    - It analyzes factors such as exercise duration, repetition count, movement quality, and adherence to prescribed routines.
    - The assessment system may incorporate machine learning models to detect patterns, identify areas for improvement, and personalize recommendations for each user.
    - It generates reports and visualizations to help users track their progress, set goals, and stay motivated throughout their rehabilitation journey.
 
-# 5. Database Management Module:
+5.Database Management Module:
    - Responsible for managing the application's database, which stores user profiles, exercise data, therapist-patient communications, and other relevant information.
    - Implements data storage, retrieval, and manipulation functionalities, ensuring data integrity, security, and privacy.
    - Utilizes a relational or NoSQL database management system (DBMS) to organize and store structured data efficiently.
    - Provides APIs or interfaces for other modules to interact with the database securely and perform CRUD (Create, Read, Update, Delete) operations as needed.
 
-# 6. Communication Module:
+6. Communication Module:
    - Facilitates communication between users (patients) and physiotherapists, enabling them to exchange messages, schedule appointments, and share exercise-related information.
    - Integrates messaging protocols, video conferencing tools, and appointment scheduling systems to support seamless communication workflows.
    - Ensures secure transmission of sensitive information and compliance with healthcare privacy regulations (e.g., HIPAA in the United States).
    - Provides notifications and alerts to users for appointment reminders, new messages, or updates from physiotherapists.
 
-# 7. Machine Learning Model Integration Module:
+7. Machine Learning Model Integration Module:
    - Integrates machine learning models into the application to enhance its capabilities in exercise classification, movement analysis, and personalized plan generation.
    - Involves training, testing, and deploying machine learning models using frameworks like TensorFlow, PyTorch, or scikit-learn.
    - Models may include classifiers for identifying exercises from sensor data, regression models for predicting user progress, or clustering algorithms for grouping users based on similar characteristics.
    - Implements model inference and integration with other modules to provide real-time feedback and personalized recommendations to users.
 
-# 8. Timer and Rep Counter Module:
+8. Timer and Rep Counter Module:
    - Tracks exercise duration, repetition counts, rest intervals, and other temporal aspects of exercise sessions.
    - Utilizes timers, counters, and event listeners to monitor user activity and record relevant metrics.
    - Provides visual or auditory cues to users to indicate when to start, pause, or resume exercises, and when to transition between different activities.
    - Stores exercise data and performance metrics in the database for analysis and reporting purposes.
 
-# 9. Hardware Integration Module:
+9. Hardware Integration Module:
    - Interfaces with hardware components such as cameras, motion sensors, wearable devices, and IoT devices to capture user data and provide real-time feedback.
    - Utilizes device APIs, drivers, or SDKs to establish communication and exchange data with external hardware.
    - Implements data preprocessing, filtering, and synchronization algorithms to ensure the accuracy and reliability of sensor data.
    - Supports calibration, configuration, and troubleshooting of hardware devices to optimize performance and user experience.
 
-# 10. Security and Privacy Module:
+10. Security and Privacy Module:
    - Implements security measures to protect user data, communication channels, and system components from unauthorized access, tampering, or data breaches.
    - Utilizes encryption, authentication, access control, and audit logging mechanisms to enforce confidentiality, integrity, and availability of sensitive information.
    - Ensures compliance with healthcare regulations, industry standards, and best practices for data security and privacy (e.g., GDPR, HIPAA, ISO 27001).
